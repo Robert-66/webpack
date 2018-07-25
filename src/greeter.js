@@ -1,5 +1,7 @@
 export class Greeter {
+    prefix = 'GREETER:';
+
     greet(greeting, object) {
-        return `${greeting}, ${object}!`;
+        return `${this.prefix}, ${greeting}, ${object}!`;
     }
 }
