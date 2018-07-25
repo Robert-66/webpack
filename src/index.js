@@ -15,4 +15,4 @@ h1.textContent = 'Знакомство с Webpack';
 app.appendChild(h1);
 
 //$('#app').text(message);
-console.log(message);
+console.log(message, 2);
